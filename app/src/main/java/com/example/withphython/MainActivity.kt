@@ -28,7 +28,7 @@ class MainActivity : ComponentActivity() {
             WithPhythonTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = txt2.toString(),
+                        name = txt1.toString(),
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
