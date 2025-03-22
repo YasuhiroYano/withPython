@@ -70,4 +70,12 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+    // For Glance support
+    implementation("androidx.glance:glance:1.1.1")
+
+    // For AppWidgets support
+    implementation("androidx.glance:glance-appwidget:1.1.1")
+
+    // For Wear-Tiles support (if needed)
+    implementation("androidx.glance:glance-wear-tiles:1.0.0-alpha05")
 }
